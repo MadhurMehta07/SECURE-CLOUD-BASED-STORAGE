@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../static/" type="image" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../static/styles/tailwind.min.css"
+    />
+    <title>Login to Secure File Storage</title>
+  </head>
+  <body
+    class="flex tracking-wider text-center justify-center overflow-x-hidden items-center h-screen"
+    style="background-color: black; color: #f2ebe9"
+  >
+    <div
+      class="rounded-2xl mx-20 hover:shadow-2xl transform duration-300"
+      style="background-color: transparent"
+    >
+      <a href="/"
+        ><button
+          class="absolute block py-2 px-4 text-sm transform duration-200 hover:-translate-y-1"
+          style="top: 0.5rem; right: 0.5rem"
+        >
+          Back
+        </button></a
+      >
+      <div class="m-10 sm:mx-20 lg:mx-40">
+        <h1 class="text-3xl md:text-4xl lg:text-5xl mt-10 font-bold">
+          Secure File Storage
+        </h1>
+        <h2 class="lg:text-lg">
+          Login to your account
+        </h2>
+        <form class="mt-12">
+          <div class="flex flex-col">
+            <label for="email" class="text-left text-xl mb-2" color: "black">Username:</label>
+            <input
+              type="email"
+              id="email"
+              name="username"
+              required
+              class="py-2 px-3 rounded-md border-2"
+              
+            />
+          </div>
+          <div class="flex flex-col mt-6">
+            <label for="password" class="text-left text-xl mb-2"
+              >Password:</label
+            >
+            <input
+              type="password"
+              id="password"
+              color: "red"
+              name="password"
+              required
+              class="py-2 px-3 rounded-md border-2 red"
+            />
+          </div>
+          <button
+             type="submit"
+             onclick="location.href='/';"
+             class="mt-8 py-2 px-4 bg-blue-600 text-white rounded-md hover:bg-blue-700"
+            >
+            Login
+        </button>
+        <button 
+        type="submit"
+        onclick="location.href='/signup';"
+        class="mt-8 py-2 px-4 bg-green-600 text-white rounded-md hover:bg-blue-700"
+      >
+        Sign Up
+      </button>
+      
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
