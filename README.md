@@ -1,6 +1,6 @@
 # Storage
 
-Google Drive and Keep clone in a few lines of code.
+Google Drive and Keep clone.
 
 Storage is a safe place that let you store, share and access your files completely anonymously while keeping them secure.
 
